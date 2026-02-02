@@ -28,7 +28,7 @@ variable "Eth0SubnetId" {
 }
 
 variable "ImageSku" {
-	default = "keysight-breakingpoint-ve-virtual-controller-26-0-0"
+	default = "keysight-breakingpoint-ve-virtual-controller-26-00"
 	description = "An instance of an offer, such as a major release of a distribution."
 	type = string
 }
@@ -70,7 +70,6 @@ variable "ResourceGroupName" {
 
 variable "SshKeyName" {
 	description = "Id associated with SSH key pair used for authentication"
-
 	type = string
 }
 
