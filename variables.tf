@@ -28,13 +28,13 @@ variable "Eth0SubnetId" {
 }
 
 variable "ImageSku" {
-	default = "keysight-breakingpoint-ve-virtual-controller-26-10"
+	default = "keysight-breakingpoint-ve-virtual-controller-26-6"
 	description = "An instance of an offer, such as a major release of a distribution."
 	type = string
 }
 
 variable "ImageVersion" {
-	default = "26.1.1"
+	default = "26.6.20"
 	description = "The version number of an image SKU."
 	type = string
 }
@@ -112,7 +112,7 @@ variable "UserProjectTag" {
 }
 
 variable "Version" {
-	default = "26.1.0"
+	default = "26.6.0"
 	description = "Versioning of the application using the deployment"
 	type = string
 }
